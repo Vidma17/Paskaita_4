@@ -1,0 +1,89 @@
+body {
+    font-family: arial;
+    background-color: cornflowerblue;
+}
+
+header {
+    /* background-color: green; */
+    overflow: auto;
+    position: relative;
+}
+
+h1 {
+    /* background-color: red; */
+    margin: 0;
+}
+
+h3 {
+    text-align: left;
+    position: relative;
+    left: 5%;
+}
+
+nav {
+    /* background-color: yellow; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 20px;
+    margin: auto;
+}
+
+header nav ul {
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+main {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    width: 35%;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pirma-forma {
+    background-color: green;
+}
+
+.antra-forma {
+    background-color: red;
+}
+
+input {
+    height: 25px;
+}
+
+.plotis-43 {
+    width: 43%;
+    margin-top: 10px;
+}
+
+.plotis-88 {
+    width: 88%;
+    margin-top: 10px;
+}
+
+.mygtukai {
+    display: block;
+    margin-top: 10px;
+    margin-right: 5%;
+    border: 2px black;
+    height: 25px;
+    width: 70px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 500px;
+}
